@@ -7,3 +7,7 @@ function closeProject1()
 {
     document.getElementById("project1-content").style.display = "none";
 }
+function delayedDisplay()
+{
+    
+}

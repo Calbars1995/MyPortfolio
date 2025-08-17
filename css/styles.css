@@ -52,3 +52,21 @@ body{
 .project1-content.active{
     display: flex;
 }
+#aboutMe1{
+    display: none;
+}
+#aboutMe2{
+    display: none;
+}
+#aboutMe3{
+    display: none;
+}
+#aboutMe4{
+    display: none;
+}
+#aboutMe5{
+    display: none;
+}
+#aboutMe6{
+    display: none;
+}
