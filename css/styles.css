@@ -70,3 +70,10 @@ body{
 #aboutMe6{
     display: none;
 }
+#aboutMeLoading{
+    display: none;
+}
+#aboutMeLoaded{
+    display: none;
+    color: red;
+}
