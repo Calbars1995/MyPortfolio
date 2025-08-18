@@ -1,21 +1,21 @@
-defaultTheme()
+function defaultTheme()
 {
-
+    document.getElementById("defaultTheme").style.display = "none";
 }
 
-lightTheme()
+function lightTheme()
 {
-
+    document.getElementById("lightTheme").style.display = "none";
 }
 
-darkTheme()
+function darkTheme()
 {
-
+    document.getElementById("darkTheme").style.display = "none";
 }
 
-blueTheme()
+function blueTheme()
 {
-    
+    document.getElementById("blueTheme").style.display = "none";
 }
 
 function openProject1()

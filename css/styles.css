@@ -1,8 +1,22 @@
 header{
     background-color: rgb(172, 164, 164);
     color: white;
-    text-align: center;
-    
+    text-align: center;  
+}
+header.lightTheme{
+    background-color: white;
+    color: black;
+    text-align: center; 
+}
+header.darkTheme{
+    background-color: black;
+    color: blue;
+    text-align: center; 
+}
+header.blueTheme{
+    background-color: blue;
+    color: white;
+    text-align: center; 
 }
 body{
     text-align: center;
