@@ -17,6 +17,9 @@ function lightTheme()
     document.getElementById("darkTheme").style.display = "inline-block";
     document.getElementById("blueTheme").style.display = "inline-block";  
     document.getElementById("pageBody").classList.add("lightTheme");
+    document.getElementById("pageBody").classList.remove("defaultTheme");
+    document.getElementById("pageBody").classList.remove("darkTheme");
+    document.getElementById("pageBody").classList.remove("blueTheme");
 }
 
 function darkTheme()
@@ -26,6 +29,9 @@ function darkTheme()
     document.getElementById("lightTheme").style.display = "inline-block";
     document.getElementById("blueTheme").style.display = "inline-block";
     document.getElementById("pageBody").classList.add("darkTheme");
+    document.getElementById("pageBody").classList.remove("defaultTheme");
+    document.getElementById("pageBody").classList.remove("lightTheme");
+    document.getElementById("pageBody").classList.remove("blueTheme");
 }
 
 function blueTheme()
@@ -35,6 +41,9 @@ function blueTheme()
     document.getElementById("lightTheme").style.display = "inline-block";
     document.getElementById("darkTheme").style.display = "inline-block";
     document.getElementById("pageBody").classList.add("blueTheme");
+    document.getElementById("pageBody").classList.remove("defaultTheme");
+    document.getElementById("pageBody").classList.remove("darkTheme");
+    document.getElementById("pageBody").classList.remove("lightTheme");
 }
 
 function openProject1()
