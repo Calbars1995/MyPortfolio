@@ -1,11 +1,14 @@
 function openProject1()
 {
     document.getElementById("project1-content").classList.add("active");
+    document.getElementById("project1Button").style.display = "none";
 }
 
 function closeProject1()
 {
     document.getElementById("project1-content").style.display = "none";
+    document.getElementById("project1Button").style.display = "block";
+    document.getElementById("project1Button").style.margin = "auto";
 }
 //delay function that can be used later to delay things
 function delay(ms) {
