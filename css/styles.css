@@ -3,24 +3,33 @@ header{
     color: white;
     text-align: center;  
 }
-header.lightTheme{
-    background-color: white;
-    color: black;
-    text-align: center; 
-}
-header.darkTheme{
-    background-color: black;
-    color: blue;
-    text-align: center; 
-}
-header.blueTheme{
-    background-color: blue;
-    color: white;
-    text-align: center; 
-}
 body{
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(217, 217, 204);
+    margin: 0% 5%;
     
+}
+body.lightTheme{
+    background-color: rgb(201, 198, 198);
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0% 5%;
+}
+body.darkTheme{
+    background-color: black;
+    color: blue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0% 5%; 
+}
+body.blueTheme{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0% 5%; 
 }
 #Project1{
     margin: 0 auto;
@@ -45,12 +54,6 @@ footer{
     background-color: black;
     color: white;
 }
-body{
-    font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(217, 217, 204);
-    margin: 0% 5%;
-}
-
 .project1-content{
     display: none;
     background: white;
