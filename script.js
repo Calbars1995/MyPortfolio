@@ -6,7 +6,7 @@ function openProject1()
 
 function closeProject1()
 {
-    document.getElementById("project1-content").style.display = "none";
+    document.getElementById("project1-content").classList.remove("active");
     document.getElementById("project1Button").style.display = "block";
     document.getElementById("project1Button").style.margin = "auto";
 }
