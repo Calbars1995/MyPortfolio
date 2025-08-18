@@ -1,21 +1,35 @@
 function defaultTheme()
 {
     document.getElementById("defaultTheme").style.display = "none";
+    document.getElementById("lightTheme").style.display = "inline-block";
+    document.getElementById("darkTheme").style.display = "inline-block";
+    document.getElementById("blueTheme").style.display = "inline-block";
+
 }
 
 function lightTheme()
 {
     document.getElementById("lightTheme").style.display = "none";
+    document.getElementById("defaultTheme").style.display = "inline-block";
+    document.getElementById("darkTheme").style.display = "inline-block";
+    document.getElementById("blueTheme").style.display = "inline-block";
+    
 }
 
 function darkTheme()
 {
     document.getElementById("darkTheme").style.display = "none";
+    document.getElementById("defaultTheme").style.display = "inline-block";
+    document.getElementById("lightTheme").style.display = "inline-block";
+    document.getElementById("blueTheme").style.display = "inline-block";
 }
 
 function blueTheme()
 {
     document.getElementById("blueTheme").style.display = "none";
+    document.getElementById("defaultTheme").style.display = "inline-block";
+    document.getElementById("lightTheme").style.display = "inline-block";
+    document.getElementById("darkTheme").style.display = "inline-block";
 }
 
 function openProject1()
