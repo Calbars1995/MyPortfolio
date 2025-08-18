@@ -14,6 +14,7 @@ function delay(ms) {
 //delayed display of the lines in about me section
 async function delayedDisplay()
 {
+    document.getElementById("aboutMePleaseClick").style.display = "none";
     //loop for showing the 6 about me lines
     for (let i = 1; i < 7; i++)
     {
