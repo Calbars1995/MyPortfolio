@@ -1,3 +1,23 @@
+defaultTheme()
+{
+
+}
+
+lightTheme()
+{
+
+}
+
+darkTheme()
+{
+
+}
+
+blueTheme()
+{
+    
+}
+
 function openProject1()
 {
     document.getElementById("project1-content").classList.add("active");
@@ -10,10 +30,12 @@ function closeProject1()
     document.getElementById("project1Button").style.display = "block";
     document.getElementById("project1Button").style.margin = "auto";
 }
+
 //delay function that can be used later to delay things
 function delay(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
+
 //delayed display of the lines in about me section
 async function delayedDisplay()
 {
